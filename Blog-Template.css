@@ -99,7 +99,13 @@
   padding: 0;
 }
 
-
+.u-image, .u-background-effect-image, .u-video-poster {
+  object-fit: none;
+  display: block;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 
@@ -131,6 +137,7 @@
 
   .u-section-1 .u-image-1 {
     height: 278px;
+    width: 200px!important;
   }
 
   .u-section-1 .u-container-layout-2 {
@@ -140,6 +147,7 @@
 
   .u-section-1 .u-image-2 {
     height: 278px;
+    width:300px;
   }
 
   .u-section-1 .u-container-layout-3 {
@@ -150,4 +158,5 @@
   .u-section-1 .u-image-3 {
     height: 278px;
   }
+ 
 }
